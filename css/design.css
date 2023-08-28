@@ -34,9 +34,11 @@ header {
     padding: 30px;
 }
 
- p {
-    display: flex;
-    justify-content: center;
+ p.stretch {
+     display: flex;
+     /*flex-direction: row;*/
+    /*justify-content: space-between;*/
     align-content: center;
-    text-size: 6rem;
+
+
 }
