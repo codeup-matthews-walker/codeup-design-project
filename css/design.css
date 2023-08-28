@@ -21,3 +21,22 @@ header {
 .logo {
     font-size:50px;
 }
+
+.list-items {
+    list-style: none;
+    width: 130px;
+    height: 130px;
+    border: 10px solid black;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+
+ p {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-size: 6rem;
+}
