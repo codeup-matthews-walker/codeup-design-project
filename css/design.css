@@ -12,6 +12,7 @@
 body {
     font-family: 'Abel', sans-serif;
     font-family: 'Anton', sans-serif;
+    background-color: var(--clr-light-grey);
 }
 
 header {
@@ -34,11 +35,33 @@ header {
     padding: 30px;
 }
 
- p.stretch {
-     display: flex;
-     /*flex-direction: row;*/
-    /*justify-content: space-between;*/
-    align-content: center;
+.li1 {
+    border: 10px solid white;
+    border-radius: 50%;
+    background-color: var(--clr-redorange);
+    box-shadow: black;
+    color: white;
+}
+.li2 {
+    border: 10px solid white;
+    border-radius: 50%;
+    background-color: var(--clr-orange);
+    box-shadow: black;
+    color: white;
+}
 
+.li3 {
+    border: 10px solid white;
+    border-radius: 50%;
+    background-color: var(--clr-green);
+    box-shadow: black;
+    color: white;
+}
 
+.li4 {
+    border: 10px solid white;
+    border-radius: 50%;
+    background-color: var(--clr-blue);
+    box-shadow: black;
+    color: white;
 }
