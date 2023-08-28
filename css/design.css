@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Anton&display=swap');
+
+:root {
+    --clr-redorange: #E6563B;
+    --clr-orange: #EB9D3A;
+    --clr-green: #7CB06C;
+    --clr-blue: #00ABA9;
+    --clr-light-grey: #F0F0F0;
+    --clr-dark-grey: #E6E6E6;
+
+}
+body {
+    font-family: 'Abel', sans-serif;
+    font-family: 'Anton', sans-serif;
+}
