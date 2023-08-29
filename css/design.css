@@ -75,11 +75,9 @@ h2 {
 }
 
 .side-list {
-    font-size: 30px;
+    font-size: 35px;
     font-weight: bold;
     font-family: 'Anton', sans-serif;
-    /*border: 10px solid var(--clr-dark-grey);*/
-
 }
 
 .text-design {
@@ -87,12 +85,17 @@ h2 {
     font-size: 25px;
 }
 
+.card-text{
+    font-size: 20px;
+}
+
 .d1{
     font-family: 'Anton', sans-serif;
     border-radius: 50%;
     background-color: var(--clr-redorange);
     color: black;
-    padding: 5px;
+    padding: 10px;
+    font-size: 20px;
 
 }
 .d2{
@@ -100,7 +103,8 @@ h2 {
     border-radius: 50%;
     background-color: var(--clr-orange);
     color: black;
-    padding: 5px;
+    padding: 10px;
+    font-size: 20px;
 
 }
 
@@ -109,22 +113,21 @@ h2 {
     border-radius: 50%;
     background-color: var(--clr-green);
     color: black;
-    padding: 5px;
+    padding: 10px;
+    font-size: 20px;
 }
 .h{
     font-family: 'Anton', sans-serif;
     border-radius: 50%;
     background-color: var(--clr-blue);
     color: black;
-    padding: 5px;
-
+    padding: 10px;
+    font-size: 20px;
 }
-/*.col-image {*/
-/*    border: 10px solid var(--clr-dark-grey);*/
-/*    display: block;*/
-/*    padding: 0;*/
-/*    margin: 0;*/
 
-/*}*/
-
+.pic-border {
+    border: 10px solid #E6E6E6;
+    box-shadow: black;
+    color: white;
+}
 
