@@ -84,3 +84,37 @@ h2 {
     font-family: 'Abel', sans-serif;
     font-size: 25px;
 }
+
+.d1{
+    font-family: 'Anton', sans-serif;
+    border-radius: 50%;
+    background-color: var(--clr-redorange);
+    color: black;
+    padding: 5px;
+
+}
+.d2{
+    font-family: 'Anton', sans-serif;
+    border-radius: 50%;
+    background-color: var(--clr-orange);
+    color: black;
+    padding: 5px;
+
+}
+
+.s{
+    font-family: 'Anton', sans-serif;
+    border-radius: 50%;
+    background-color: var(--clr-green);
+    color: black;
+    padding: 5px;
+}
+.h{
+    font-family: 'Anton', sans-serif;
+    border-radius: 50%;
+    background-color: var(--clr-blue);
+    color: black;
+    padding: 5px;
+
+
+}
