@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Abel&family=Anton&display=swap');
 
 :root {
-    --clr-redorange: #E6563B;
+    --clr-red: #E6563B;
     --clr-orange: #EB9D3A;
     --clr-green: #7CB06C;
     --clr-blue: #00ABA9;
@@ -9,141 +9,222 @@
     --clr-dark-grey: #E6E6E6;
 
 }
+
+* {
+    padding: 0;
+    margin: 0;
+    background-color: var(--clr-dark-grey);
+}
+
 body {
-    font-family: 'Abel', sans-serif;
-    font-family: 'Anton', sans-serif;
+    /*font-family: 'Abel', sans-serif;*/
+    /*font-family: 'Anton', sans-serif;*/
     background-color: var(--clr-light-grey);
 }
 
-header {
-    font-family: 'Abel', sans-serif;
+.col-1{
+    font-size: 10px;
+    padding: unset;
 }
 
-h1{
-    font-size: 80px;
+.red {
+    background-color: var(--clr-red);
+}
+.orange{
+    background-color: var(--clr-orange);
+}
+.green{
+    background-color: var(--clr-green);
+}
+.blue{
+    background-color: var(--clr-blue);
 }
 
-h2 {
+.container-hero {
+    font-family: "Anton", sans-serif;
+    border-bottom: 2px solid grey;
+}
+
+.container-hero h1 h3 {
     font-size: 60px;
 }
-
-.logo {
-    font-size:40px;
-}
-
-.list-items {
-    list-style: none;
-    width: 130px;
-    height: 130px;
-    border: 10px solid black;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 30px;
-}
-
-.li1 {
-    border: 10px solid white;
-    border-radius: 50%;
-    background-color: var(--clr-redorange);
-    box-shadow: black;
-    color: white;
-}
-.li2 {
-    border: 10px solid white;
-    border-radius: 50%;
-    background-color: var(--clr-orange);
-    box-shadow: black;
-    color: white;
-}
-
-.li3 {
-    border: 10px solid white;
-    border-radius: 50%;
-    background-color: var(--clr-green);
-    box-shadow: black;
-    color: white;
-}
-
-.li4 {
-    border: 10px solid white;
-    border-radius: 50%;
-    background-color: var(--clr-blue);
-    box-shadow: black;
-    color: white;
-}
-
-.side-list {
-    font-size: 35px;
-    font-weight: bold;
-    font-family: 'Anton', sans-serif;
-}
-
-.text-design {
-    font-family: 'Abel', sans-serif;
-    font-size: 25px;
-}
-
-.card-text{
-    font-size: 20px;
-}
-
-.d1{
-    font-family: 'Anton', sans-serif;
-    border-radius: 50%;
-    background-color: var(--clr-redorange);
-    color: black;
-    padding: 10px;
-    font-size: 20px;
+.card {
+    width:380px;
+    height: 245px;
+    border: none;
+    padding: unset;
 
 }
-.d2{
-    font-family: 'Anton', sans-serif;
-    border-radius: 50%;
-    background-color: var(--clr-orange);
-    color: black;
-    padding: 10px;
-    font-size: 20px;
+.card-img-top {
+    width: 100%;
+    max-height: 235px;
+    border: 5px solid var(--clr-light-grey);;
+    object-fit: cover;
+}
+.card-text {
+    font-size: 12px;
+    font-family: "Abel", sans-serif;
+}
+
+h6 {
+    font-family: "Abel", sans-serif;
+    height: 18px;
+}
+
+.mission-b{
+
+    height: 100px;
+    width: 100px;
+    border-radius: 60px;
+    border: 5px solid white;
+    color: var(--clr-light-grey);
+}
+
+.mission-sm {
+    height: 20px;
+    width: 20px;
+    border-radius: 60px;
+    font-family: "Anton",sans-serif;
+}
+
+span{
+    font-size: 10px;
+    flex-grow: 1;
+    text-align: center;
+    background-color: inherit;
+    border-radius: 20px;
+}
+
+.sel-work {
+    font-family: "Abel", sans-serif;
+    width: 75%;
 
 }
 
-.s{
-    font-family: 'Anton', sans-serif;
-    border-radius: 50%;
-    background-color: var(--clr-green);
-    color: black;
-    padding: 10px;
-    font-size: 20px;
+section{
+    font-family: "Anton", sans-serif;
+    font-size: 30px;
+    width: 35%;
 }
-.h{
-    font-family: 'Anton', sans-serif;
-    border-radius: 50%;
-    background-color: var(--clr-blue);
-    color: black;
-    padding: 10px;
-    font-size: 20px;
+/*need correction*/
+section .text{
+    font-family: "Abel", sans-serif;
+    font-size: 18px;
 }
-
-.pic-border {
-    border: 10px solid #E6E6E6;
-    box-shadow: black;
-    color: white;
+section img{
+    width: 70px;
+    height: 70px;
+    border: 5px solid var(--clr-light-grey);;
 }
 
-@media screen and (max-width: 580px) {
-    section h1 {
-        font-size: 70px;
-    }
 
-    section h3 {
+@media screen and (min-width: 1024px) {
+    .container-hero h3{
         font-size: 45px;
     }
-    .mission {
+    div.card {
+        width: 230px;
+        height: 170px;
+    }
+    img.card-img-top {
+        width: 245px;
+        height: 170px;
+        object-fit: contain;
+    }.nav-link {
+         font-size: 14px;
+     }
+    section h1{
+        font-size: 60px;
+    }
+
+}
+@media screen and (min-width: 1200px) {
+    .container-hero h1{
+        font-size: 50px;
+    }
+    /*div*/
+    .container-hero h3{
+        font-size: 40px;
+    }
+    div.card {
+        width: 345px;
+        height: 270px;
+    }
+    img.card-img-top {
+        width: 345px;
+        height: 270px;
+        object-fit: contain;
+    }
+    .nav-link {
+        font-size: 12px;
+    }
+    /*div*/
+
+}
+@media screen and (max-width: 768px){
+    header.row{
+        flex-grow: unset;
+    }
+    h6 {
+        margin: unset;
+        margin-bottom: 12px;
+    }
+    .card {
+        width: 235px;
+        height: 160px;
+
+    }
+    img.card-img-top {
+        width: 235px;
+        height: 160px;
+        object-fit: cover;
+    }
+    a.navbar-brand {
+        display: none;
+    }
+
+    .sel-work {
+        flex-grow: 1;
+    }
+
+}
+@media screen and (max-width: 560px){
+    h1{
+        font-size: 70px;
+    }
+    .container-hero h3{
+        font-size: 40px;
+    }
+    .mission{
         width: 270px;
         display: flex;
-        height: 238px;
+        height: 235px;
     }
-}
+    .container-hero{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        border-bottom: unset;
+    }
+    .sel-work{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .sel-work ul li {
+        list-style: none;
+    }
+    .card-body{
+        width: 100%;
+    }
+    .card{
+        width: 90%;
+        height: 200px;
+    }
+    img.card-img-top {
+        width: 100%;
+        object-fit: cover;
+    }
 
-/*corrected the nav bar and "the last" column and set the small width to 580 here is an example of the cards if you would like to update them*/
+}
