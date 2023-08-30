@@ -24,7 +24,7 @@ body {
 
 .col-1{
     font-size: 10px;
-    padding: unset;
+    padding: unset;u
 }
 
 .red {
@@ -158,7 +158,6 @@ section img{
     .nav-link {
         font-size: 12px;
     }
-    /*div*/
 
 }
 @media screen and (max-width: 768px){
