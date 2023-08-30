@@ -158,6 +158,9 @@ section img{
     .nav-link {
         font-size: 12px;
     }
+    .container {
+        max-width: 1900px;
+    }
 
 }
 @media screen and (max-width: 768px){
@@ -172,10 +175,11 @@ section img{
         width: 235px;
         height: 160px;
 
+
     }
     img.card-img-top {
         width: 235px;
-        height: 160px;
+        height: 140px;
         object-fit: cover;
     }
     a.navbar-brand {
