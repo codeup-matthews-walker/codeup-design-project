@@ -131,3 +131,19 @@ h2 {
     color: white;
 }
 
+@media screen and (max-width: 580px) {
+    section h1 {
+        font-size: 70px;
+    }
+
+    section h3 {
+        font-size: 45px;
+    }
+    .mission {
+        width: 270px;
+        display: flex;
+        height: 238px;
+    }
+}
+
+/*corrected the nav bar and "the last" column and set the small width to 580 here is an example of the cards if you would like to update them*/
